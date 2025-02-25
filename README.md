@@ -1,19 +1,27 @@
-# Welcome to your Expo app 👋
+# Welcome to your Altimeter app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
 
-1. Install dependencies
+1. Connect Ardruino Mega with BMP180 
+
+2. Open Ardruino_Code.ino with Ardruino IDE and upload in Ardruino Mega
+
+3. Install dependencies
 
    ```bash
    npm install
    ```
-
+4. Start python
+ ```bash
+   python .\Arduino\
+```bash
+   
 2. Start the app
 
    ```bash
-    npx expo start
+    npm start
    ```
 
 In the output, you'll find options to open the app in a

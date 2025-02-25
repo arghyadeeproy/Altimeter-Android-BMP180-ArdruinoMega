@@ -15,9 +15,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```
 4. Start python
    
- ```bash
-   python .\Arduino\
-```
+    ```bash
+   python .\arduino_bridge.py
+   ```
    
 2. Start the app
 
